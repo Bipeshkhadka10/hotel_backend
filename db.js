@@ -2,8 +2,9 @@
 const mongoose = require('mongoose')
 
 //define a mongodb URL
-const mongoURL= 'mongodb://localhost:27017/hotel'  // we can put any database name 
-
+//const mongoURL= 'mongodb://localhost:27017/hotel'  // we can put any database name 
+// contecting with the cloud database
+const mongoURL ='mongodb+srv://bipeshkhadka2003:hello1234@hotel.i8p32.mongodb.net/'
 //setup mongodb connections
 mongoose.connect(mongoURL,{
     useNewUrlParser: true,
