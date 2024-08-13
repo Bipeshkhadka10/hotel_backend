@@ -4,12 +4,12 @@ require('dotenv').config();
 
 
 //define a mongodb URL
-//const mongoURL= process.env.MONGO_DBLOCALURL  // we can put any database name 
+const mongoURL= process.env.MONGO_DBLOCALURL  // we can put any database name 
 
 
 // contecting with the cloud database
 
-const mongoURL=process.env.MONGO_DBURL;
+// const mongoURL=process.env.MONGO_DBURL;
 //setup mongodb connections
 mongoose.connect(mongoURL,{
     useNewUrlParser: true,
